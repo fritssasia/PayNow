@@ -1,0 +1,178 @@
+/* font Segoe UI Bold*/
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: local('Segoe UI Bold'), url('../fonts/Segoe UI Bold.woff') format('woff');
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: #eff3ff;
+    overflow-x: hidden;
+}
+
+/* navbar */
+.navbar {
+    background-color: #6751fc;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+}
+
+.navbar-brand {
+    font-family: 'Segoe UI Bold';
+}
+
+.nav-list {
+    margin-left: 15px;
+}
+
+.nav-bantuan {
+    margin-left: 40px;
+}
+
+.user {
+    margin-top: 10px;
+    background-color: #8978f8;
+    background-size: cover;
+    border-radius: 20px;
+
+}
+
+.user-image {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+/* jumbotron */
+.jumbotron {
+    background-color: #6751fc;
+    height: 845px;
+}
+
+.bg-img {
+    padding-top: 65px;
+    width: 655px;
+    height: 635px;
+    object-fit: cover;
+}
+
+.description {
+    margin-top: 205px;
+}
+
+.pay-line-top {
+    border: 6px solid #3EF6F6;
+    width: 70px;
+    margin-right: 455px;
+}
+
+.pay-anything {
+    font-family: 'Segoe UI Bold';
+    font-weight: bold;
+    font-size: 77px;
+}
+
+.pay-easy {
+    padding-top: 50px;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.button-get-app {
+    padding-top: 35px;
+}
+
+.btn-appstore {
+    background-image: url('../img/getapp-img/appstore-img.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 120px;
+    height: 45px;
+}
+
+.btn-playstore {
+    margin-left: 15px;
+    background-image: url('../img/getapp-img/playstore-img.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    width: 120px;
+    height: 45px;
+}
+
+/* info panel */
+.info-panel {
+    margin-top: -125px;
+}
+
+.info-panel-card {
+    height: 190px;
+    border: none;
+    border-radius: 15px;
+}
+
+.info-panel-content {
+    margin-top: 50px;
+}
+
+.support-partner {
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.partner-list {
+    margin-left: 50px;
+}
+
+.partner-bluepay {
+    margin-top: 10px;
+    margin-left: 65px;
+    width: auto;
+    height: 40px;
+    object-fit: cover;
+}
+
+.partner-link-aja {
+    margin-top: 10px;
+    width: auto;
+    height: 45px;
+    object-fit: cover;
+}
+
+.partner-kredivo {
+    margin-top: 18px;       
+    width: auto;
+    height: 25px;
+    object-fit: cover;
+}
+
+.partner-doku {
+    margin-top: 10px;
+    width: auto;
+    height: 45px;
+    object-fit: cover;
+}
+
+.partner-paypal {
+    margin-top: 15px;
+    width: auto;
+    height: 40px;
+    object-fit: cover;
+}
+
+.partner-ovo {
+    margin-top: 2px;
+    width: auto;
+    height: 53px;
+    object-fit: cover;
+}
+
+/* next-section */
+.next {
+    height: 60px;
+    background-color: #eff3ff;
+}
